@@ -9,7 +9,7 @@
 /*fondos*/
 .fondo{
     background-image: url(https://static.diariofemenino.com/media/885/sonarhojasverdes1.jpg);
-}
+    background-position: left;}
 
 .prueba{
     background-color: rgb(237, 237, 25);
