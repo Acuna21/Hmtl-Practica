@@ -1,0 +1,25 @@
+h1{
+    color: brown;
+}
+/*Probando comentarios en css*/
+p{
+    color:black;
+    font-size: 16pt;
+}
+
+/*acceder a id*/
+#libro{
+    color:gray;
+    font-size:12pt;
+}
+
+/*acceder a clases*/
+.encabezado{
+    color:aqua;
+    font-size:15pt;
+}
+
+.autor, .date,.pais{
+    text-decoration: underline;
+    color:blueviolet;
+}
