@@ -5,3 +5,12 @@
 .color_2{
     color:rgb(93, 244, 73);
 }
+
+/*fondos*/
+.fondo{
+    background-image: url(https://static.diariofemenino.com/media/885/sonarhojasverdes1.jpg);
+}
+
+.prueba{
+    background-color: rgb(237, 237, 25);
+}
