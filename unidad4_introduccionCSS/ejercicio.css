@@ -1,0 +1,7 @@
+#elemento1{
+    color: rgb(253, 45, 45);
+}
+
+ul li:first-child {
+    font-size: 2rem;
+}
