@@ -1,0 +1,21 @@
+.id1, .id2 {
+    background-color: red;
+    font-size: 2rem;
+}
+
+#span1 {
+    background-color: rgb(34, 173, 243);
+}
+
+#span2 {
+    background-color: rgb(34, 173, 243);
+    float: right;
+}
+
+#imagen_arboles{
+    width: 50px;
+    height: 50px;
+
+}
+
+/*Posicionamiento/positioning*/

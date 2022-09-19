@@ -1,0 +1,46 @@
+h2{
+    color:red;
+}
+
+/*static--->No se pueden editar, viene por defecto*/
+div{
+
+    left: 80px;
+    border:1px solid green;
+    padding: 5px;
+    margin:5px;
+    background-color: aliceblue;
+}
+
+
+/*relative---Se pisiciona en relacion al posicionamiento original>*/
+.relative{
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+    
+}
+
+/*Fixed-----Se mantiene fijo elimina el espacio flotante*/
+.fixed{
+    position: fixed;
+    left: 0%;
+    background-color: greenyellow;
+}
+
+/*Absolte----Es absoluta en funcion al elemento padre*/
+.absolute{
+    position: absolute;
+    top:0px
+}
+
+/*Sticky----->Queda siempre arriba Tipomenu: siempre visisable*/
+.sticky{
+    background-color: blue;
+    position: sticky;
+    top:0px;
+    z-index: 2;
+}
+
+
+
