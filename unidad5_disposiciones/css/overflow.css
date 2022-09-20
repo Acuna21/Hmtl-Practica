@@ -1,0 +1,37 @@
+/*Overflow*/
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+
+}
+.containerHidden{
+    background-color: antiquewhite;
+    width:500px;
+    height: 100px;
+    text-align: justify;
+    padding: 15px;
+    overflow:hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.containerScroll{
+    background-color: antiquewhite;
+    width:500pxo;
+    height: 300px;
+    text-align: justify;
+    padding: 10px;
+    overflow:scroll;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.containerVisible{
+    background-color: antiquewhite;
+    width:500pxo;
+    height: 300px;
+    text-align: justify;
+    padding: 10px;
+    overflow:auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
