@@ -1,0 +1,29 @@
+.flex{
+    display: flex;
+    background-color: rgb(245, 245, 152);
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+
+.content1{
+    height: 200px;
+    width: 100px;
+    border: 1px solid blue;
+}
+.content2{
+    height: 200px;
+    width: 100px;
+    border: 1px solid blue;
+}
+.content3{
+    height: 200px;
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.content1, .content2, .content3{
+    background-color: aquamarine;
+}
