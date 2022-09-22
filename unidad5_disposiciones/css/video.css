@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+.video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /*Me rellena el espacio*/
+    position: fixed;
+}
+
+.header{
+    height: 100vh;
+    position:relative;
+    text-align: center;
+    justify-content: center;
+    color: beige;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
