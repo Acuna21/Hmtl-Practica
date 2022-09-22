@@ -1,0 +1,40 @@
+.container{
+    width: auto;
+    height: auto;
+    background-color: aqua;
+
+}
+
+.frase{
+    font-style: italic;
+
+}
+
+.frase::before{
+    content: "<<";
+}
+
+.frase::after{
+    content: ">>";
+}
+
+.book{
+    padding:15px;
+    background-color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.book p::first-letter{
+    font-size: xx-large;
+}
+
+.book p::first-line{
+    color:white;
+}
+
+.book p::selection{
+    background-color: blueviolet;
+    color:gold;
+
+}
