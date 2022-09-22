@@ -1,0 +1,19 @@
+h1{
+    color:red
+}
+#title{
+    color:blue;
+}
+.parrafo{
+    color:green;
+}
+p{
+    color:red;
+}
+
+/*5 ESPECIFICADES
+Cuando se define en la misma linea de html tiene 4 nivel
+pero el superior es el important ya que este prevalece*/
+
+/*MEJORES PRACTICA
+EVITAR EL !IMPORTANT*/
