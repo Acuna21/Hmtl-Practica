@@ -1,0 +1,12 @@
+.contenedor p{
+    color:red;
+    text-align:center;
+}
+.contenedor h2{
+    text-align: center;
+}
+.image{
+    height: 40vw;
+    display:block;
+    margin:auto;
+}
