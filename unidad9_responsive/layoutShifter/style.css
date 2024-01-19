@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    display: flex;
+    height: 100vh;
+}
+
+.representation{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #fe6c34;
+    position: relative;
+}
+
+.representation::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("/imagenes/fondo1.jpg");
+    background-size: cover; /* Ajusta según tus necesidades */
+    opacity: 0.3; /* Ajusta la opacidad según tus necesidades */
+}
+
+
+.fondo{
+    width: 100%;
+    opacity: 0.3;
+}
+
+.about{
+    width: 65%;
+    background-color: #f0eded;
+}
+
+header{
+    height: 60px;
+    background-color: #ff8243;
+    display: flex;
+    justify-content: space-around 
+}
+
+.button{
+    border: 0px;
+    background-color: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+    color:white;
+    font-weight: bold;
+}
+
+.more-infor{
+    color:white;
+    font-weight: bold;
+    background-color: #ff8243;
+    border: 0px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.home{
+    margin-top:3rem ;
+    padding: 2rem 3rem;
+}
+
+h2,h3{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #fe6c34;
+    margin-bottom: 1rem;
+}
+
+p{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.img-logo{
+    width: 300px;
+}
+
+.write{
+    margin-top: 3rem;
+}
+
+
+.diario{
+    width: 300px;
+    border-radius: 5px;
+    height: 300px;
+}
+
+.grupo-imagen{
+    margin-top: 1rem;
+}
